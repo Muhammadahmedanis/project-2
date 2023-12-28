@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2 id="Student"><u>Person Filling Form</u></h2>
+    <P>Gender</P>
+    <input type="radio" name="gender" value="M">Male
+    <input type="radio" name="gender" value="F" checked>Female
+    <br /><br />
+    <form action="">
+        <label>
+            Status in relation in College
+            <select name="" size="1">
+                <option value="std" selected>Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="kids">Kids</option>
+            </select>
+            <br /><br />
+            Name
+            <input placeholder="Enter Name" type="text" name="fullName" maxlength="20" size="25" />
+            FatherName
+            <input placeholder="Enter FatherName" type="text" name="FName" maxlength="10" size="25" />
+            <br /><br />
+            Address
+            <input placeholder="Enter Location" type="text" name="add" size="23" />
+            Date-time
+            <input type="datetime-local" name="date" />
+            <br /><br />
+            Email
+            <input placeholder="Enter Email" type="email" name="Email" size="25" />
+            ContactNo
+            <input placeholder="Enter Number" type="number" name="Number" size="25" />
+            <br /><br />
+            CNIC
+            <input placeholder="Enter CNIC Number" type="number" name="Cnic" size="25">
+            Roll-No
+            <input placeholder="Enter Roll Number" type="number" name="R-No">
+            <br /><br />
+            Description About Complain
+            <br />
+            <textarea placeholder="About Complain" name="comment" cols="70" rows="10"></textarea>
+
+            <br />
+            Do you have any Evidence?
+            <input type="radio" name="E" value="Y">Yes
+            <input type="radio" name="E" value="N">No
+        </label>
+    </form>
+    <br /><br />
+    <h2 id="office"><u>Office Form</u></h2>
+    <br /><br />
+    <fieldset>
+        <legend>For office use only</legend>
+        <label>
+            Date of Complain Received
+            <input type="date" name="Date">
+            <br />
+            Action Taken By Management:
+            <br />
+            <textarea name="det" cols="70" rows="10"></textarea>
+            <br />
+            <u>..................................</u>
+            <br />
+            Signature
+            <br />
+        </label>
+    </fieldset>
+    <br/><br/>
+    <center>
+        <button value="submit">Submit</button>
+    </center>
+</body>
+
+</html>
